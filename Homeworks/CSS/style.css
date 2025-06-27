@@ -1,0 +1,78 @@
+
+/* Universal Selector ( * ) */
+
+*{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Tag selector (tagname) */
+
+header{
+  background-color: aquamarine;
+}
+
+footer{
+  text-align: center;
+}
+
+
+
+h2{
+  background-color: blanchedalmond;
+  color: brown;
+}
+
+h3{
+  color: cornflowerblue;
+}
+
+/* Grouping Selector (selectorname,selectorname)*/
+
+header , footer{
+  background-color: cadetblue;
+}
+
+/* Class Selector( .classname )*/
+
+.header{
+  display: flex;
+  
+}
+
+.nav-list{
+  list-style: none;
+}
+
+.category-card{
+  text-align: center;
+}
+
+/* Attribute Selector ( [key="value"] ) */
+
+[data-type="fashion"]{
+  background-color: darkturquoise;
+}
+
+[data-type="electronics"]{
+  background-color: darkorchid;
+}
+
+[data-type="home"]{
+  background-color: rgb(81, 121, 81);
+}
+
+/* elementname[Attribute Selector]( tagname[key:"value"] )*/
+
+p[class="price"]{
+  color: fuchsia;
+}
+
+p[class="note"]{
+  color: rgb(85, 136, 8);
+}
+
+footer[id="main-footer"]{
+  color: blue;
+}
+
